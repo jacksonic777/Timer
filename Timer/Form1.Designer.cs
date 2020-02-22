@@ -105,6 +105,7 @@
             // timerControll
             // 
             this.timerControll.Interval = 1000;
+            this.timerControll.Tick += new System.EventHandler(this.timerControll_Tick);
             // 
             // FormTimer
             // 
